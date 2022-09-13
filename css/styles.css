@@ -169,13 +169,21 @@ body {
 }
 
 /* Hero */
-.main-hero {
-	background-color: var(--secondary-bg-color);
+.overlay-hero {
+	height: 600px;
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
 
+	background: rgba(47, 48, 58, 0.4);
+	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/overlay.jpg);
+	background-color: var(--secondary-bg-color);
+}
+
+.main-hero {
 	/*	*/
 	padding-top: 200px;
 	padding-bottom: 200px;
-
 	text-align: center;
 	/*	*/
 }
@@ -194,6 +202,7 @@ body {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--tertiary-text-color);
+
 }
 
 .hero-btn {
@@ -208,7 +217,6 @@ body {
 
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
-	text-align: center;
 }
 .hero-btn:hover,
 .hero-btn:focus {
