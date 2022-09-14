@@ -384,9 +384,14 @@ body {
 
 .clients-list {
 	display: flex;
+	gap: 30px;
+	/* flex-wrap: wrap; */
 }
 
 .clients-item {
+	/* flex-basis: calc((100% - 150px) / 6); */
+	padding: 15px 31px;
+
 	border: 1px solid #AFB1B8;
 	border-radius: 4px;
 }
