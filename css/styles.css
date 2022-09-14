@@ -242,6 +242,16 @@ body {
 .benefits-item {
 	flex-basis: calc((100% - 90px) / 4);
 }
+.benefits-item::before {
+	content: "";
+	display: inline-block;
+	height: 120px;
+	width: 270px;
+	margin-bottom: 30px;
+
+	background-color: #F5F4FA;;
+	border-radius: 4px;
+}
 
 .benefits-name {
 	margin-bottom: 10px;
