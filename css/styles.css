@@ -149,6 +149,15 @@ body {
 	background-color: var(--secondary-bg-color);
 }
 
+.footer-wrapper {
+	display: flex;
+	align-items: baseline;
+}
+
+.footer-contacts {
+	margin-right: 70px;
+}
+
 .footer .logo-link {
 	display: inline-block;
 	margin-bottom: 20px;
@@ -176,6 +185,45 @@ body {
 
 .footer-link {
 	color: var(--footer-address-color);
+}
+
+.footer-social {}
+
+.social-title {
+	margin-bottom: 20px;
+
+	font-weight: 700;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--tertiary-text-color);
+}
+
+.footer-social-list {
+	display: flex;
+	gap: 10px;
+}
+
+.footer-social-item {
+	display: flex;
+	align-items: center;
+	flex-basis: calc((100% - 30px) / 4);
+}
+
+.footer-social-link {
+	padding: 12px;
+
+	color: var(--tertiary-text-color);
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 50%;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+	background-color: var(--accent-color);
+}
+
+.footer-social-icon {
+	fill: currentColor;
 }
 /* .................................END FOOTER................................ */
 
