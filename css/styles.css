@@ -352,8 +352,7 @@ body {
 }
 
 .team-padding{
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding: 30px 32px;
 }
 
 .team-name {
@@ -364,7 +363,36 @@ body {
 }
 
 .team-position {
+	margin-bottom: 16px;
+
 	color: var(--secondary-text-color);
+}
+
+.social-list {
+	display: flex;
+	gap: 10px;
+}
+
+.social-item {
+	flex-basis: calc((100% - 30px) / 4);
+}
+
+.social-link {
+	display: flex;
+	align-items: center;
+	padding: 12px;
+
+	border-radius: 50%;
+	color: #AFB1B8;
+}
+.social-link:hover,
+.social-link:focus {
+	color: var(--tertiary-text-color);
+	background-color: var(--accent-color);
+}
+
+.social-icon {
+	fill: currentColor;
 }
 
 /* Clients */
