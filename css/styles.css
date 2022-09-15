@@ -17,6 +17,8 @@
 	--hero-btn-accent-color: #188ce8;
 
 	--border-color: #EEEEEE;
+
+	--primary-svg-color: #AFB1B8;
 }
 
 .visually-hidden {
@@ -383,7 +385,7 @@ body {
 	padding: 12px;
 
 	border-radius: 50%;
-	color: #AFB1B8;
+	color: var(--primary-svg-color);
 }
 .social-link:hover,
 .social-link:focus {
@@ -414,19 +416,32 @@ body {
 
 .clients-list {
 	display: flex;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	gap: 30px;
 }
 
 .clients-item {
 	flex-basis: calc((100% - 150px) / 6);
-	padding: 15px 31px;
-
-	border: 1px solid #AFB1B8;
-	border-radius: 4px;
 }
 
-.clients-logo {}
+.clients-link {
+	display: block;
+	color: var(--primary-svg-color);
+	padding: 16px 32px;
+
+	border: 1px solid var(--primary-svg-color);
+	border-radius: 4px;
+}
+.clients-link:hover,
+.clients-link:focus {
+	color: var(--accent-color);
+	border-color: var(--accent-color);
+}
+
+.clients-logo {
+	fill: currentColor;
+}
+
 /* ...............................END INDEX.HTML.............................. */
 
 /* ...............................PORTFOLIO.HTML.............................. */
