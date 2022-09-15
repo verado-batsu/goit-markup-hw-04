@@ -242,7 +242,7 @@ body {
 .benefits-item {
 	flex-basis: calc((100% - 90px) / 4);
 }
-.benefits-item::before {
+/* .benefits-item::before {
 	content: "";
 	display: inline-block;
 	height: 120px;
@@ -254,18 +254,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-.antenna::before {
-	background-image: url(../images/benefits/icon/antenna.svg);
-}
-.clock::before {
-	background-image: url(../images/benefits/icon/clock.svg);
-}
-.diagram::before {
-	background-image: url(../images/benefits/icon/diagram.svg);
-}
-.astronaut::before {
-	background-image: url(../images/benefits/icon/astronaut.svg);
-}
+ */
 
 .benefits-name {
 	margin-bottom: 10px;
@@ -384,12 +373,12 @@ body {
 
 .clients-list {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 30px;
-	/* flex-wrap: wrap; */
 }
 
 .clients-item {
-	/* flex-basis: calc((100% - 150px) / 6); */
+	flex-basis: calc((100% - 150px) / 6);
 	padding: 15px 31px;
 
 	border: 1px solid #AFB1B8;
