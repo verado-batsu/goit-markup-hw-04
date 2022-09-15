@@ -255,19 +255,19 @@ body {
 .benefits-item {
 	flex-basis: calc((100% - 90px) / 4);
 }
-/* .benefits-item::before {
-	content: "";
-	display: inline-block;
-	height: 120px;
-	width: 270px;
-	margin-bottom: 30px;
 
-	background-color: #F5F4FA;;
+.benefits-thumb {
+	height: 120px;
+	margin-bottom: 30px;
+	padding: 25px 100px;
+
+	background-color: var(--tertiary-bg-color);
 	border-radius: 4px;
-	background-repeat: no-repeat;
-	background-position: center;
 }
- */
+.icon-antenna {}
+.icon-clock {}
+.icon-diagram {}
+.icon-astronaut {}
 
 .benefits-name {
 	margin-bottom: 10px;
