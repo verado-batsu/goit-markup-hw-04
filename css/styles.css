@@ -117,11 +117,24 @@ body {
 }
 
 .header-link {
-	display: block;
+	display: flex;
+	align-items: center;
 	padding-top: 32px;
 	padding-bottom: 32px;
 
 	color: var(--secondary-text-color);
+}
+
+.icon-mail {
+	margin-right: 10px;
+
+	fill: currentColor;
+}
+
+.icon-phone {
+	margin-right: 10px;
+
+	fill: currentColor;
 }
 
 /* .................................END HEADER................................ */
