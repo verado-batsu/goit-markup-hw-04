@@ -428,7 +428,8 @@ body {
 }
 
 .social-link {
-	display: block;
+	display: flex;
+	align-items: center;
 	padding: 12px;
 
 	border-radius: 50%;
